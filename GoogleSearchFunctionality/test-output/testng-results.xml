@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-21T16:18:40 IST" name="Default suite" finished-at="2023-01-21T16:20:49 IST" duration-ms="128927">
+    <groups>
+    </groups>
+    <test started-at="2023-01-21T16:18:40 IST" name="Default test" finished-at="2023-01-21T16:20:49 IST" duration-ms="128927">
+      <class name="pageValidation.GoogleSearchPageTest">
+        <test-method is-config="true" signature="initiateSetup()[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:18:40 IST" name="initiateSetup" finished-at="2023-01-21T16:18:40 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateSetup -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:18:40 IST" name="registerTestName" finished-at="2023-01-21T16:18:44 IST" duration-ms="3181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.verifyTheUrl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="verifyTheUrl()[pri:1, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:18:44 IST" name="verifyTheUrl" finished-at="2023-01-21T16:18:44 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUrl -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:18:44 IST" name="teadDownMethod" finished-at="2023-01-21T16:18:45 IST" duration-ms="988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheUrl status=SUCCESS method=GoogleSearchPageTest.verifyTheUrl()[pri:1, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:18:45 IST" name="registerTestName" finished-at="2023-01-21T16:18:47 IST" duration-ms="2782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.verifySearchBox()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="verifySearchBox()[pri:2, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:18:47 IST" name="verifySearchBox" finished-at="2023-01-21T16:18:49 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBox -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:18:49 IST" name="teadDownMethod" finished-at="2023-01-21T16:18:49 IST" duration-ms="663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchBox status=SUCCESS method=GoogleSearchPageTest.verifySearchBox()[pri:2, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:18:49 IST" name="registerTestName" finished-at="2023-01-21T16:18:52 IST" duration-ms="2917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.verifySearchButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="verifySearchButton()[pri:3, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:18:52 IST" name="verifySearchButton" finished-at="2023-01-21T16:18:58 IST" duration-ms="5684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchButton -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:18:58 IST" name="teadDownMethod" finished-at="2023-01-21T16:18:59 IST" duration-ms="820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchButton status=SUCCESS method=GoogleSearchPageTest.verifySearchButton()[pri:3, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:18:59 IST" name="registerTestName" finished-at="2023-01-21T16:19:02 IST" duration-ms="2749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.verifyAutoSuggestions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="verifyAutoSuggestions()[pri:4, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:02 IST" name="verifyAutoSuggestions" finished-at="2023-01-21T16:19:04 IST" duration-ms="2374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAutoSuggestions -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:04 IST" name="teadDownMethod" finished-at="2023-01-21T16:19:05 IST" duration-ms="712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAutoSuggestions status=SUCCESS method=GoogleSearchPageTest.verifyAutoSuggestions()[pri:4, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:05 IST" name="registerTestName" finished-at="2023-01-21T16:19:07 IST" duration-ms="2700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.clickOnAutoSuggestions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="clickOnAutoSuggestions()[pri:5, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:07 IST" name="clickOnAutoSuggestions" finished-at="2023-01-21T16:19:12 IST" duration-ms="4481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAutoSuggestions -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:12 IST" name="teadDownMethod" finished-at="2023-01-21T16:19:13 IST" duration-ms="737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnAutoSuggestions status=SUCCESS method=GoogleSearchPageTest.clickOnAutoSuggestions()[pri:5, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:13 IST" name="registerTestName" finished-at="2023-01-21T16:19:15 IST" duration-ms="2786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.verifyTheRecentSearches()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="verifyTheRecentSearches()[pri:6, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:15 IST" name="verifyTheRecentSearches" finished-at="2023-01-21T16:19:19 IST" duration-ms="3218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheRecentSearches -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:19 IST" name="teadDownMethod" finished-at="2023-01-21T16:19:19 IST" duration-ms="767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheRecentSearches status=SUCCESS method=GoogleSearchPageTest.verifyTheRecentSearches()[pri:6, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:19 IST" name="registerTestName" finished-at="2023-01-21T16:19:22 IST" duration-ms="2859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.verifyTheSearchResults()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="verifyTheSearchResults()[pri:7, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:22 IST" name="verifyTheSearchResults" finished-at="2023-01-21T16:19:28 IST" duration-ms="5959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheSearchResults -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:28 IST" name="teadDownMethod" finished-at="2023-01-21T16:19:29 IST" duration-ms="747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheSearchResults status=SUCCESS method=GoogleSearchPageTest.verifyTheSearchResults()[pri:7, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:29 IST" name="registerTestName" finished-at="2023-01-21T16:19:32 IST" duration-ms="2689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.verifyTheMicIsClickable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="verifyTheMicIsClickable()[pri:8, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:32 IST" name="verifyTheMicIsClickable" finished-at="2023-01-21T16:19:34 IST" duration-ms="2124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheMicIsClickable -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:34 IST" name="teadDownMethod" finished-at="2023-01-21T16:19:34 IST" duration-ms="750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheMicIsClickable status=SUCCESS method=GoogleSearchPageTest.verifyTheMicIsClickable()[pri:8, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:34 IST" name="registerTestName" finished-at="2023-01-21T16:19:37 IST" duration-ms="2867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.verifyTheSearchByImageIsClickable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="verifyTheSearchByImageIsClickable()[pri:9, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:37 IST" name="verifyTheSearchByImageIsClickable" finished-at="2023-01-21T16:19:39 IST" duration-ms="2133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheSearchByImageIsClickable -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:39 IST" name="teadDownMethod" finished-at="2023-01-21T16:19:40 IST" duration-ms="681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheSearchByImageIsClickable status=SUCCESS method=GoogleSearchPageTest.verifyTheSearchByImageIsClickable()[pri:9, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:40 IST" name="registerTestName" finished-at="2023-01-21T16:19:43 IST" duration-ms="2804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.searchOnlyAlphabet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="searchOnlyAlphabet()[pri:10, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:43 IST" name="searchOnlyAlphabet" finished-at="2023-01-21T16:19:49 IST" duration-ms="5808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnlyAlphabet -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:49 IST" name="teadDownMethod" finished-at="2023-01-21T16:19:49 IST" duration-ms="747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchOnlyAlphabet status=SUCCESS method=GoogleSearchPageTest.searchOnlyAlphabet()[pri:10, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:49 IST" name="registerTestName" finished-at="2023-01-21T16:19:52 IST" duration-ms="2819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.searchOnlyNumeric()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="searchOnlyNumeric()[pri:11, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:52 IST" name="searchOnlyNumeric" finished-at="2023-01-21T16:19:59 IST" duration-ms="6780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnlyNumeric -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:19:59 IST" name="teadDownMethod" finished-at="2023-01-21T16:20:00 IST" duration-ms="743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchOnlyNumeric status=SUCCESS method=GoogleSearchPageTest.searchOnlyNumeric()[pri:11, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:00 IST" name="registerTestName" finished-at="2023-01-21T16:20:03 IST" duration-ms="2838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.searchOnlySpecialCharacters()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="searchOnlySpecialCharacters()[pri:12, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:03 IST" name="searchOnlySpecialCharacters" finished-at="2023-01-21T16:20:08 IST" duration-ms="5753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnlySpecialCharacters -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:08 IST" name="teadDownMethod" finished-at="2023-01-21T16:20:09 IST" duration-ms="797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchOnlySpecialCharacters status=SUCCESS method=GoogleSearchPageTest.searchOnlySpecialCharacters()[pri:12, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:09 IST" name="registerTestName" finished-at="2023-01-21T16:20:12 IST" duration-ms="2678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.searchOnlyAlbhaNumeric()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="searchOnlyAlbhaNumeric()[pri:13, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:12 IST" name="searchOnlyAlbhaNumeric" finished-at="2023-01-21T16:20:19 IST" duration-ms="6696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnlyAlbhaNumeric -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:19 IST" name="teadDownMethod" finished-at="2023-01-21T16:20:19 IST" duration-ms="773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchOnlyAlbhaNumeric status=SUCCESS method=GoogleSearchPageTest.searchOnlyAlbhaNumeric()[pri:13, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:19 IST" name="registerTestName" finished-at="2023-01-21T16:20:22 IST" duration-ms="2842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.searchOnlyNumericwithSpecialCharacters()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="searchOnlyNumericwithSpecialCharacters()[pri:14, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:22 IST" name="searchOnlyNumericwithSpecialCharacters" finished-at="2023-01-21T16:20:29 IST" duration-ms="7028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnlyNumericwithSpecialCharacters -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:29 IST" name="teadDownMethod" finished-at="2023-01-21T16:20:30 IST" duration-ms="737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchOnlyNumericwithSpecialCharacters status=SUCCESS method=GoogleSearchPageTest.searchOnlyNumericwithSpecialCharacters()[pri:14, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:30 IST" name="registerTestName" finished-at="2023-01-21T16:20:33 IST" duration-ms="2792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.searchOnlyAlbhabeticwithSpecialCharacters()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="searchOnlyAlbhabeticwithSpecialCharacters()[pri:15, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:33 IST" name="searchOnlyAlbhabeticwithSpecialCharacters" finished-at="2023-01-21T16:20:38 IST" duration-ms="5530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOnlyAlbhabeticwithSpecialCharacters -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:38 IST" name="teadDownMethod" finished-at="2023-01-21T16:20:39 IST" duration-ms="691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchOnlyAlbhabeticwithSpecialCharacters status=SUCCESS method=GoogleSearchPageTest.searchOnlyAlbhabeticwithSpecialCharacters()[pri:15, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="registerTestName(java.lang.reflect.Method)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:39 IST" name="registerTestName" finished-at="2023-01-21T16:20:42 IST" duration-ms="2799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pageValidation.GoogleSearchPageTest.verifyFailedTestCase()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestName -->
+        <test-method signature="verifyFailedTestCase()[pri:16, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:42 IST" name="verifyFailedTestCase" finished-at="2023-01-21T16:20:48 IST" duration-ms="5947" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Testing Skill] but found [Testing Skills]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Testing Skill] but found [Testing Skills]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at pageValidation.GoogleSearchPageTest.verifyFailedTestCase(GoogleSearchPageTest.java:143)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailedTestCase -->
+        <test-method is-config="true" signature="teadDownMethod(org.testng.ITestResult)[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:48 IST" name="teadDownMethod" finished-at="2023-01-21T16:20:49 IST" duration-ms="1168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFailedTestCase status=FAILURE method=GoogleSearchPageTest.verifyFailedTestCase()[pri:16, instance:pageValidation.GoogleSearchPageTest@4ac3c60d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDownMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:pageValidation.GoogleSearchPageTest@4ac3c60d]" started-at="2023-01-21T16:20:49 IST" name="tearDownMethod" finished-at="2023-01-21T16:20:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- pageValidation.GoogleSearchPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
