@@ -57,7 +57,7 @@ public class GoogleSearchPageTest extends GoogleSearchPage {
 	public void verifyTheRecentSearches() {
 		clickEvent(searchBox);
 		printAllElements(recent_searches);
-		clickEvent(recent_searches);
+		clickEvent(recent_searches); 
 		logger.log(Status.INFO, "User able to see the recent searched and able to select it");
 		logger.log(Status.PASS, "Test case verified successfully");
 	}
